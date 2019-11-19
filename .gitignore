@@ -1,3 +1,13 @@
+# some files and folders
+*.pth
+*.json
+*.ipynb
+*.mat
+try_64f/
+archives/
+*.ttf
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
