@@ -35,6 +35,7 @@ if __name__=="__main__":
             input_files.append(row[:-1]+'.avi')
 
     class_names = []
+    # check class_Ind.txt when changing datasets !
     with open('ucf101_classInd.txt') as f:
         for row in f:
             class_names.append(row[:-1])
